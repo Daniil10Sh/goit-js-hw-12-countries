@@ -1,4 +1,3 @@
-
 const countryNameInput = document.getElementById('country-name');
 const countryContainer = document.getElementById('country-container');
 
@@ -20,7 +19,6 @@ async function fetchCountryData(country) {
     countryContainer.innerHTML = '<p>Country not found. Try again!</p>';
   }
 }
-
 
 function displayCountryData(country) {
   countryContainer.innerHTML = `
